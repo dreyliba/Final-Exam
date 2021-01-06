@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.image-container {
+  height: 300px;
+  border: solid #ccc 1px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image-container img {
+  width: 50%;
+}
+
+button {
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 10px;
+}
